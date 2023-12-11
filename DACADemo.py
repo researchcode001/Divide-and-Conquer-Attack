@@ -451,10 +451,10 @@ def drawPicture(api_key, prompt):
     try:
         response = client.images.generate(model="dall-e-3", prompt=prompt, size="1024x1024", quality="standard", n=1)
         image_url = response.data[0].url
-        return image_url  # 返回图片URL
+        return image_url
     except openai.BadRequestError as e:
         print("Error encountered:", e)
-        return None  # 发生错误时返回None
+        return None 
 
 
 # Copyright Character Category
@@ -546,7 +546,6 @@ def DiscriminatoryAndInappropriateGeneratePrompt(model_type, api_key, input_text
     message16 = GET_PROMPT_ENV + f"{input_text}"
     environment = unified_query(api_key, message16, model_type)
 
-    # 故事润色
     print("Polish Story")
     message17 = POLISH_STORY_PROMPT + f"{environment}" + f"{character2}" + f"{character_and_costume}" + f"{character_and_property}" + f"{character_and_action}" + f"{character_and_detail}"
     final_story = unified_query(api_key, message17, model_type)
