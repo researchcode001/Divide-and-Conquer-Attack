@@ -1,5 +1,5 @@
 # Divide-and-Conquer Attack
-This is the official implementation for paper: **Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass the Censorship of Text-to-Image Generation Mode**
+This is the official implementation for paper: **Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass the Censorship of Text-to-Image Generation Model**
 
 **Warning: This repository may contain harmful content.**
 
