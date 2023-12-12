@@ -569,7 +569,7 @@ def generatePrompt(model_type, api_key, category, input_text):
 
 markdown_text = """
 # Divide and Conquer Attack Demo
-[Project Page](https://github.com/researchcode001/Divide-and-Conquer-Attack) | [Paper](https://arxiv.org/)
+[Project Page](https://github.com/researchcode001/Divide-and-Conquer-Attack)
 
 ## Feature Description
 - **Model Selection**: Choose the backbone LLM for generating an Adversarial Prompt.
