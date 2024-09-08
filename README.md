@@ -1,10 +1,10 @@
 # Divide-and-Conquer Attack
-This is the official implementation for paper: **Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass the Censorship of Text-to-Image Generation Model**
+This is the official implementation for paper: **Harnessing LLM to Attack LLM-Guarded Text-to-Image Models**
 
 **Warning: This repository may contain harmful content.**
 
 ## Dataset
-The dataset `Sensitive Prompt Dataset.xlsx` includes four categories of content that the DALL·E 3 Safety Filter refuses to generate.
+The dataset `VBCDE-100.txt` includes four categories of content that the DALL·E 3 Safety Filter refuses to generate.
 
 ## Gradio Demo:
 - Download the source file `DACADemo.py` and the requirements file `requirements.txt`
